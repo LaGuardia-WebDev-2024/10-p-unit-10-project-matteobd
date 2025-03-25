@@ -1,46 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Poetsen+One&display=swap');
+
 body {
-  background-color: black;
+  background-image: url("https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg");
   text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  margin-top: 10%;
-  font-family: Georgia, serif;
+  margin: auto;
+   font-family: "Poetsen One", serif;
 }
 
-html{
-  height: 100%;
-  width: 100%;
+h1{
+  font-size: 30px;
+  color: white;
 }
 
 #myCanvas {
-  border: 1px solid black;
+  background-size: 600px 400px;
+  border-radius: 30px;
+  border: 5px solid white;
 }
 
-.container{
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding-bottom: 20px;
-}
 
-.pic{
-  height: 600px;
-  width: 400px;
-  object-fit: cover;
-  border: 1px solid black;
-}
 
-h2{
-  color: black;
-}
-
-#start{
-  text-align: left;
-}
-
-#end{
-  text-align: right;
-}
